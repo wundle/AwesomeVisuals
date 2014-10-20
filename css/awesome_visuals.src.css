@@ -1,0 +1,53 @@
+.awesomeVisualsWrapper{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+
+.fill {
+    position: absolute;
+    color: lightgrey;
+    height: 100%;
+    width: 100%;
+}
+.partFill {
+    position: absolute;
+    color: red;
+    margin-top: 200px;
+    height: 200px;
+    overflow: hidden;
+    width: 100%;
+}
+.iconHolder{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    line-height: 0px;
+}
+
+
+.fillText {
+    position: absolute;
+    font-size: 55px;
+    display: table;
+    text-align: center;
+    bottom: 0px;
+    height: 400px;
+    box-sizing: content-box;
+    width: 100%;
+}
+
+.fillText>div{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 40px;
+}
+
+.partFill>.fillText {
+    color: white;
+}
+.fill>.fillText {
+    color: red;
+}
